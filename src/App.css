@@ -169,6 +169,7 @@
     background-color: white;
     padding: 3vh 2vw;
     border-radius: 10px;
-    width: 90vw;
+    width: 85vw;
+    margin-top: 1vh;
   }
 }
