@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/astra-project/static/css/main.cb37ffd5.css",
+    "main.css": "/astra-project/static/css/main.39e03a52.css",
     "main.js": "/astra-project/static/js/main.567108ed.js",
     "static/js/787.b748a604.chunk.js": "/astra-project/static/js/787.b748a604.chunk.js",
     "index.html": "/astra-project/index.html",
-    "main.cb37ffd5.css.map": "/astra-project/static/css/main.cb37ffd5.css.map",
+    "main.39e03a52.css.map": "/astra-project/static/css/main.39e03a52.css.map",
     "main.567108ed.js.map": "/astra-project/static/js/main.567108ed.js.map",
     "787.b748a604.chunk.js.map": "/astra-project/static/js/787.b748a604.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb37ffd5.css",
+    "static/css/main.39e03a52.css",
     "static/js/main.567108ed.js"
   ]
 }
