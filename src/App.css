@@ -93,13 +93,16 @@
   padding-left: 0.5vw;
 }
 
+.feedback-parent {
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 3vh;
+}
 .feedback {
   background-color: white;
   padding: 3vh 2vw;
   border-radius: 10px;
-  margin-top: auto;
-  margin-right: auto;
-  margin-bottom: 5vh;
+
   display: flex;
   flex-direction: column;
 }
@@ -124,18 +127,19 @@
 @media screen and (max-width: 768px) {
   .App {
     background-color: #f3f4f6;
-    width: 97vw;
     min-height: 100vh;
     height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
   }
   .border {
     border-radius: 10px;
     background-color: white;
-    width: 90vw;
+    width: 95vw;
+  }
+  .parent {
+    position: absolute;
   }
   .background-btn {
     font-size: 15px;
@@ -144,7 +148,7 @@
     font-weight: 600;
   }
   .container {
-    width: 85vw;
+    width: 90vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -165,11 +169,17 @@
   .para p {
     width: 70vw;
   }
+
   .feedback {
+    position: relative;
     background-color: white;
-    padding: 3vh 2vw;
     border-radius: 10px;
-    width: 85vw;
-    margin-top: 1vh;
+    width: 90vw;
+  }
+
+  .blackScreen {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 70vh;
   }
 }

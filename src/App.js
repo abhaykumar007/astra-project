@@ -146,24 +146,30 @@ function App() {
         </div>
       </div>
       {feedBack && (
-        <div className="feedback">
-          <p>Only School Admin will be able to see your feedback</p>
-          <div className="input">
-            <textarea
-              ref={ref}
-              onChange={(e) => setInput(e.target.value)}
-            ></textarea>
-          </div>
-          <div className="button">
-            <button
-              style={{ color: "gray", marginRight: "1vh" }}
-              onClick={() => setFeedBack(false)}
-            >
-              CANCEL
-            </button>
-            <button style={{ color: "rgb(4, 53, 126)" }} onClick={saveFeedback}>
-              SHARE
-            </button>
+        <div className="feedback-parent">
+          <div className="blackScreen"></div>
+          <div className="feedback">
+            <p>Only School Admin will be able to see your feedback</p>
+            <div className="input">
+              <textarea
+                ref={ref}
+                onChange={(e) => setInput(e.target.value)}
+              ></textarea>
+            </div>
+            <div className="button">
+              <button
+                style={{ color: "gray", marginRight: "1vh" }}
+                onClick={() => setFeedBack(false)}
+              >
+                CANCEL
+              </button>
+              <button
+                style={{ color: "rgb(4, 53, 126)" }}
+                onClick={saveFeedback}
+              >
+                SHARE
+              </button>
+            </div>
           </div>
         </div>
       )}
